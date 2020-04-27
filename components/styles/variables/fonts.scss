@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+
+$font-family-lato: 'Lato', sans-serif;
+
+@mixin font-Lato-light {
+    font-family: $font-family-lato;
+    font-weight: 300;
+}
+@mixin font-Lato-regular {
+    font-family: $font-family-lato;
+    font-weight: 400;
+}
+@mixin font-Lato-bold {
+    font-family: $font-family-lato;
+    font-weight: 700;
+}
+@mixin font-Lato-black {
+    font-family: $font-family-lato;
+    font-weight: 900;
+}

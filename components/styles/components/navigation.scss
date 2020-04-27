@@ -1,0 +1,70 @@
+#nav{
+    float: right;
+    position: relative;
+
+    span{
+        position: relative;
+        z-index: 20;
+        display: block;
+        margin-bottom: 6px;
+        width: 35px;
+        height: 2px;
+        background: #707070;
+        transition: transform .3s cubic-bezier(.77, .2, .05, 1), background .3s cubic-bezier(.77, .2, .05, 1), opacity .2s ease;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    input{
+        position: absolute;
+        z-index: 25;
+        opacity: 0;
+        cursor: pointer;
+        right: 0;
+        top: 0;
+        width: 35px;
+        height: 28px;
+        margin: 0;
+        &:checked ~ span{
+            background: $color-blue;
+            transform: rotate(45deg) translate(5px, 5px);
+            &:nth-child(3){
+                opacity: 0;
+                transform: rotate(0deg) scale(0, 0);
+            }
+            &:nth-child(4){
+                transform: rotate(-45deg) translate(5px, -5px);
+            }
+        }
+    }
+
+    ul{
+        position: absolute;
+        z-index: 10;
+        width: 300px;
+        top: calc(100% + 40px);
+        right: 0;
+        display: none;
+        background: #fff;
+        padding: 60px 40px 20px;
+        list-style: none;
+        margin: 0;
+        text-transform: uppercase;
+        li{
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        a{
+            color: $color-dark;
+            text-decoration: none;
+            &:hover,
+            &:focus{
+                color: $color-blue;
+            }
+        }
+    }
+
+}

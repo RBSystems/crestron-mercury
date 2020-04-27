@@ -1,0 +1,29 @@
+#footer{
+    padding: 50px 0 30px;
+    text-align: center;
+    color: $color-blue;
+
+    .footer-top{
+        max-width: 600px;
+        margin: 0 auto 40px;
+    }
+
+    .logo{
+        display: block;
+        width: 285px;
+        margin: 0 auto;
+
+        @include respond-to(mobile-large){
+            width: 200px;
+        }
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .footer-bottom{
+        @include font-size(1.4rem);
+    }
+}

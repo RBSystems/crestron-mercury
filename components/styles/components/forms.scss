@@ -1,0 +1,54 @@
+// Global form settings here
+input[type="text"],
+input[type="email"],
+input[type="tel"]{
+    display: block;
+    width: 100%;
+    border: 1px solid $color-white;
+    border-radius: 50px;
+    @include font-size(2.7rem);
+    line-height: 1.33em;
+    background: none;
+    color: $color-white;
+    padding: 15px 20px;
+    text-align: center;
+    margin-bottom: 30px;
+
+    @include placeholder{
+        color: $color-white;
+    }
+
+}
+
+input[type="submit"]{
+    display: inline-block;
+    cursor: pointer;
+    background: $color-white;
+    color: $color-blue;
+    @include font-size(2.7rem);
+    line-height: 1.33em;
+    border-radius: 30px;
+    padding: 15px 20px;
+    border: none;
+    min-width: 260px;
+
+    &:hover,
+    &:focus{
+        background: #f9f9f9;
+    }
+
+}
+
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+select::-ms-expand {
+    display: none;
+}
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}

@@ -1,0 +1,20 @@
+#header{
+    background: $color-white;
+    padding: 40px 0;
+    position: relative;
+    z-index: 20;
+
+    .logo{
+        float: left;
+        width: 285px;
+        @include respond-to(mobile-large){
+            width: 200px;
+
+        }
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
