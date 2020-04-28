@@ -5,33 +5,37 @@ html {
     -moz-osx-font-smoothing: grayscale;
 }
 body{
-    @include font-Lato-light;
+    @include font-Mark-Light;
     @include font-size(2.1rem);
     line-height: 1.476;
     color: $color-dark;
 }
 h1{
-    @include font-Lato-light;
+    @include font-Mark-Light;
     @include font-size(6.9rem);
     line-height: 0.91em;
     margin: 0 0 30px;
     color: $color-blue;
 
     span{
-        @include font-Lato-bold;
+        @include font-Mark-Bold;
     }
 }
 h2{
-    @include font-Lato-light;
+    @include font-Mark-Light;
     @include font-size(3.7rem);
     line-height: 1.135em;
     margin: 0 0 30px;
     color: $color-blue;
 
     span{
-        @include font-Lato-bold;
+        @include font-Mark-Bold;
     }
 }
 a{
     color: $color-blue;
+}
+strong,
+b{
+    @include font-Mark-Bold;
 }

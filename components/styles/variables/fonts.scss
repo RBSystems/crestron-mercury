@@ -1,20 +1,34 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+@font-face {
+    font-family: 'MarkPro-Light';
+    src: url('webfonts/MarkPro-Light.eot');
+    src: 
+        url('webfonts/MarkPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('webfonts/MarkPro-Light.woff2') format('woff2'),
+        url('webfonts/MarkPro-Light.woff') format('woff'),
+        url('webfonts/MarkPro-Light.ttf') format('truetype'),
+        url('webfonts/MarkPro-Light.svg#MarkPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
 
-$font-family-lato: 'Lato', sans-serif;
+@font-face {
+    font-family: 'MarkPro-Bold';
+    src: url('webfonts/MarkPro-Bold.eot');
+    src: 
+        url('webfonts/MarkPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('webfonts/MarkPro-Bold.woff2') format('woff2'),
+        url('webfonts/MarkPro-Bold.woff') format('woff'),
+        url('webfonts/MarkPro-Bold.ttf') format('truetype'),
+        url('webfonts/MarkPro-Bold.svg#MarkPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
 
-@mixin font-Lato-light {
-    font-family: $font-family-lato;
+@mixin font-Mark-Light {
+    font-family: 'MarkPro-Light', sans-serif;
     font-weight: 300;
 }
-@mixin font-Lato-regular {
-    font-family: $font-family-lato;
-    font-weight: 400;
-}
-@mixin font-Lato-bold {
-    font-family: $font-family-lato;
+@mixin font-Mark-Bold {
+    font-family: 'MarkPro-Bold', sans-serif;
     font-weight: 700;
-}
-@mixin font-Lato-black {
-    font-family: $font-family-lato;
-    font-weight: 900;
 }
