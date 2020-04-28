@@ -12,7 +12,7 @@ input[type="tel"]{
     color: $color-white;
     padding: 15px 20px;
     text-align: center;
-    margin-bottom: 30px;
+    margin: 0;
 
     @include placeholder{
         color: $color-white;
