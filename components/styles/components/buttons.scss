@@ -10,8 +10,8 @@
     cursor: pointer;
     @include font-size(3.9rem);
 
-    @media screen and (max-width:1600px){
-        @include font-size(3.2rem)
+    @media screen and (max-width: 1600px){
+        @include font-size(3.2rem);
     }
 
     @include respond-to(xlarge-desktop){
@@ -19,7 +19,7 @@
     }
 
     @include respond-to(large-desktop){
-        @include font-size(2.0rem);
+        @include font-size(2rem);
         padding: 20px 30px;
     }
 

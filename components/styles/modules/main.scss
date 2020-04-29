@@ -1,6 +1,6 @@
 .banner{
     padding: 100px 0;
-    background: url(images/img-banner.jpg);
+    background: url(https://go.crestroninfo.com/l/767943/2020-04-29/5nz1ml/767943/46099/img_banner.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -51,12 +51,16 @@
         border-radius: 85px;
         padding: 35px 45px 35px 0;
         background: $color-blue;
-        @include font-size(2.8rem);
+        @include font-size(2.4rem);
         line-height: 1.1;
         color: $color-white;
 
         @include respond-to(xlarge-desktop){
-            @include font-size(2.5rem);
+            @include font-size(2.2rem);
+        }
+
+        @include respond-to(large-desktop){
+            @include font-size(2rem);
         }
 
         @include respond-to(mobile-large){
@@ -79,6 +83,7 @@
 
         span{
             display: inline-block;
+            width: 42%;
             vertical-align: top;
             margin-right: 20px;
 
@@ -86,6 +91,7 @@
                 display: block;
                 margin-right: 0;
                 margin-bottom: 20px;
+                width: 100%;
                 br{
                     display: none;
                 }
@@ -243,6 +249,12 @@
         display: flex;
         justify-content: space-between;
         flex-direction: row;
+        max-width: 80%;
+        margin: 0 auto;
+
+        @include respond-to(desktop){
+            max-width: 100%;
+        }
 
         @include respond-to(mobile-large){
             flex-direction: column;
@@ -276,7 +288,7 @@
             height: auto;
         }
 
-        @include respond-to(large-desktop){
+        @include respond-to(xlarge-desktop){
             width: 180px;
             height: 180px;
             border-radius: 70px;
@@ -307,7 +319,7 @@
             left: 30%;
             top: 0;
             bottom: 0;
-            background: url(images/img-footer.jpg) no-repeat;
+            background: url(https://go.crestroninfo.com/l/767943/2020-04-29/5nz1cz/767943/46065/img_footer.jpg) no-repeat;
             background-size: cover;
             background-position: right center;
 
@@ -318,7 +330,7 @@
     }
     &-holder{
         width: 700px;
-        padding: 50px;
+        padding: 45px;
         border-radius: 45px;
         background: $color-blue;
         color: $color-white;
@@ -351,6 +363,29 @@
         input[type="email"],
         input[type="tel"]{
             margin-bottom: 35px;
+        }
+
+        // styles pecific to pardot form
+        &.form{
+            color: $color-white;
+
+            p{
+                @include font-size(1.8rem);
+
+                &.form-field{
+                    margin: 0 !important;
+                }
+                &.submit{
+                    margin: 0 !important;
+                }
+                &.errors{
+                    background: none;
+                }
+                &.error{
+                    color: $color-white;
+                    margin: -30px 0 20px;
+                }
+            }
         }
     }
     &-note{

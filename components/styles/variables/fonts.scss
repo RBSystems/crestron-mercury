@@ -1,34 +1,45 @@
-@font-face {
+/* @font-face {
     font-family: 'MarkPro-Light';
-    src: url('webfonts/MarkPro-Light.eot');
-    src: 
-        url('webfonts/MarkPro-Light.eot?#iefix') format('embedded-opentype'),
-        url('webfonts/MarkPro-Light.woff2') format('woff2'),
-        url('webfonts/MarkPro-Light.woff') format('woff'),
-        url('webfonts/MarkPro-Light.ttf') format('truetype'),
-        url('webfonts/MarkPro-Light.svg#MarkPro-Light') format('svg');
+    src: url('https://go.crestroninfo.com/l/767943/2020-04-29/5nz1h2/767943/46087/MarkPro_Light.eot');
+    src:
+        local('MarkPro-Light'),
+        url('https://go.crestroninfo.com/l/767943/2020-04-29/5nz1h2/767943/46087/MarkPro_Light.eot?#iefix') format('embedded-opentype'),
+        url('https://go.crestroninfo.com/l/767943/2020-04-29/5nz1hb/767943/46095/MarkPro_Light.woff2') format('woff2'),
+        url('https://go.crestroninfo.com/l/767943/2020-04-29/5nz1h8/767943/46093/MarkPro_Light.woff') format('woff'),
+        url('https://go.crestroninfo.com/l/767943/2020-04-29/5nz1h6/767943/46091/MarkPro_Light.ttf') format('truetype'),
+        url('https://go.crestroninfo.com/l/767943/2020-04-29/5nz1h4/767943/46089/MarkPro_Light.svg#MarkPro-Light') format('svg');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MarkPro-Bold';
-    src: url('webfonts/MarkPro-Bold.eot');
-    src: 
-        url('webfonts/MarkPro-Bold.eot?#iefix') format('embedded-opentype'),
-        url('webfonts/MarkPro-Bold.woff2') format('woff2'),
-        url('webfonts/MarkPro-Bold.woff') format('woff'),
-        url('webfonts/MarkPro-Bold.ttf') format('truetype'),
-        url('webfonts/MarkPro-Bold.svg#MarkPro-Bold') format('svg');
+    src: url('https://go.crestroninfo.com/l/767943/2020-04-29/5nz1fs/767943/46077/MarkPro_Bold.eot');
+    src:
+        local('MarkPro-Bold'),
+        url('https://go.crestroninfo.com/l/767943/2020-04-29/5nz1fs/767943/46077/MarkPro_Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://go.crestroninfo.com/l/767943/2020-04-29/5nz1gj/767943/46085/MarkPro_Bold.woff2') format('woff2'),
+        url('https://go.crestroninfo.com/l/767943/2020-04-29/5nz1gg/767943/46083/MarkPro_Bold.woff') format('woff'),
+        url('https://go.crestroninfo.com/l/767943/2020-04-29/5nz1gb/767943/46081/MarkPro_Bold.ttf') format('truetype'),
+        url('https://go.crestroninfo.com/l/767943/2020-04-29/5nz1fx/767943/46079/MarkPro_Bold.svg#MarkPro-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
-}
+} */
 
-@mixin font-Mark-Light {
+/* @mixin font-Mark-Light {
     font-family: 'MarkPro-Light', sans-serif;
     font-weight: 300;
 }
 @mixin font-Mark-Bold {
     font-family: 'MarkPro-Bold', sans-serif;
+    font-weight: 700;
+} */
+
+@mixin font-Montserrat-Light {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+@mixin font-Montserrat-Bold {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
