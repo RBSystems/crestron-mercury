@@ -1,10 +1,14 @@
 .banner{
-    padding: 100px 0;
-    background: url(https://go.crestroninfo.com/l/767943/2020-04-29/5nz1ml/767943/46099/img_banner.jpg);
+    padding: 190px 0;
+    background: url(https://go.crestroninfo.com/l/767943/2020-04-30/5v2prj/767943/46311/img_banner.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
     overflow: hidden;
+
+    @include respond-to(large-desktop){
+        padding: 100px 0;
+    }
 
     @include respond-to(mobile-large){
         padding: 80px 0;
@@ -249,7 +253,7 @@
         display: flex;
         justify-content: space-between;
         flex-direction: row;
-        max-width: 80%;
+        max-width: 90%;
         margin: 0 auto;
 
         @include respond-to(desktop){
@@ -316,10 +320,10 @@
             position: absolute;
             content: '';
             right: 0;
-            left: 30%;
+            left: 25%;
             top: 0;
             bottom: 0;
-            background: url(https://go.crestroninfo.com/l/767943/2020-04-29/5nz1cz/767943/46065/img_footer.jpg) no-repeat;
+            background: url(https://go.crestroninfo.com/l/767943/2020-04-30/5v2q5s/767943/46321/img_footer.jpg) no-repeat;
             background-size: cover;
             background-position: right center;
 
@@ -329,7 +333,7 @@
         }
     }
     &-holder{
-        width: 700px;
+        width: 750px;
         padding: 45px;
         border-radius: 45px;
         background: $color-blue;
@@ -347,9 +351,9 @@
         }
     }
     &-top{
-        margin-bottom: 80px;
+        margin-bottom: 40px;
         @include respond-to(mobile-large){
-            margin-bottom: 40px;
+            margin-bottom: 30px;
         }
         h2{
             color: $color-white;
@@ -385,6 +389,12 @@
                     color: $color-white;
                     margin: -30px 0 20px;
                 }
+            }
+            .thankyou{
+                background: $color-white;
+                color: $color-blue;
+                padding: 20px;
+                border-radius: 50px;
             }
         }
     }

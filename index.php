@@ -31,8 +31,8 @@
         <section class="banner">
             <div class="container">
                 <div class="banner-text">
-                    <h1>When things get<br/><span>unusual...</span><br/>It's business <br/>as <span>usual.</span></h1>
-                    <span class="sub-heading">with Crestron Mercury&reg; <br/>conference system</span>
+                    <h1>When things get<br/><span>unusual...</span><br/>It's business<br/>as <span>usual.</span></h1>
+                    <span class="sub-heading">with the Crestron Mercury<sup>&reg;</sup> <br/>Conference System</span>
                 </div>
                 <div class="banner-cta">
                     <span>Buy 4 Crestron Mercury devices and get a 5th one <strong>free!</strong></span>
@@ -57,7 +57,7 @@
             <div class="text-holder">
                 <div class="text-wrap">
                     <h2>Get <strong>back to business</strong> <br/>and stay on track</h2>
-                    <p>A simple and innovative all-in-one solution, the <strong>Crestron Mercury&reg; Tabletop UC Video Conference System with Basic Camera (CCS-UC-1-AV W/PS)</strong> is made for right now. It’s all you need to transform any room into a powerful conferencing and collaboration space.</p>
+                    <p>A simple and innovative all-in-one solution, the <strong>Crestron Mercury Tabletop UC Video Conference System with Basic Camera (CCS-UC-1-AV W/PS)</strong> is made for right now. It’s all you need to transform any room into a powerful conferencing and collaboration space.</p>
                     <p>Place additional units where you need them most – in the office and personal meeting spaces for leaders or essential workers, and in the home office for your remote and working from home (WFH) teams.</p>
                     <p>With this special offer you can also integrate with your existing Crestron equipment, achieve greater value for money, solve today’s challenges, and better prepare your organisation for whatever the future holds.</p>
                 </div>
@@ -84,7 +84,7 @@
                         </div>
                         <div class="text-holder">
                             <h2>Call</h2>
-                            <p>Leverage the precision engineered speaker and microphones inside Crestron Mercury&reg; to enjoy phone calls that sound like everyone is in the same room.</p>
+                            <p>Leverage the precision engineered speaker and microphones inside Crestron Mercury to enjoy phone calls that sound like everyone is in the same room.</p>
                         </div>
                     </div>
                     <div class="col">
@@ -93,7 +93,7 @@
                         </div>
                         <div class="text-holder">
                             <h2>Schedule</h2>
-                            <p>Connect directly with Microsoft Exchange Server&reg; or Crestron Fusion Software&reg; for easy room scheduling with onscreen graphical display of room calendars to set your meeting.</p>
+                            <p>Connect directly with Microsoft Exchange Server<sup>&reg;</sup> or Crestron Fusion Software<sup>&reg;</sup> for easy room scheduling with onscreen graphical display of room calendars to set your meeting.</p>
                         </div>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
             <div class="text-holder">
                 <div class="text-wrap">
                     <h2>Freedom to<br/><strong>connect with ease</strong></h2>
-                    <p>Unlike comparable systems, only Crestron Mercury&reg; works seamlessly with Zoom&trade;, Microsoft Teams&reg;, Skype&reg; for Business, or any of your preferred web conferencing applications or SIP VoIP phone systems.</p>
+                    <p>Unlike comparable systems, only Crestron Mercury works seamlessly with Zoom&trade;, Microsoft Teams<sup>&reg;</sup>, Skype<sup>&reg;</sup> for Business, or any of your preferred web conferencing applications or SIP VoIP phone systems.</p>
                 </div>
             </div>
             <div class="img-holder">
@@ -117,7 +117,8 @@
                     <div class="form-holder">
                         <div class="form-top">
                             <h2>Buy 4 Crestron Mercury devices and get a <strong>5th one free!</strong></h2>
-                            <p>With each device competitively priced at $3,168 AUD ($3,312 NZD) incl. GST, you’ll save 20% when you purchase a total of five<br/><strong>Crestron Mercury (CCS-UC-1-AV W/PS)</strong> <br/>devices for a limited time. <br/>Fill in the form to secure this special offer and a Crestron specialist will contact you ASAP to discuss your business needs.</p>
+                            <p>With each device competitively priced at $3,168 AUD ($3,312 NZD) incl. GST, you’ll save 20% when you purchase a total of five<br/><strong>Crestron Mercury (CCS-UC-1-AV W/PS)</strong> <br/>devices for a limited time.</p>
+                            <p id="fill-message">Fill in the form to secure this special offer and a Crestron specialist will contact you ASAP to discuss your business needs.</p>
                         </div>
                         <form action="#">
                             <input type="text" name="" placeholder="Name*">
@@ -126,7 +127,7 @@
                             <input type="text" name="" placeholder="Organisation name">
                             <input type="submit" value="Submit">
                         </form>
-                        <div class="form-note">
+                        <div class="form-note" id="form-note">
                             <p>By submitting your information you consent to the use of that information as set out in the <a href="https://www.crestron.com/legal/website-terms-of-use" target="_blank">Terms of Use</a> and <a href="https://www.crestron.com/legal/privacy-policy" target="_blank">Privacy Policy</a></p>
                         </div>
                     </div>
@@ -139,7 +140,7 @@
         <div class="container">
             <div class="footer-top">
                 <h2>Look <span>under</span> the hood?</h2>
-                <p>Take a deeper dive into the world of Crestron Mercury&reg; with full product specifications <a href="">here</a>.</p>
+                <p>Take a deeper dive into the world of Crestron Mercury with full product specifications <a href="https://www.crestron.com/Products/Featured-Solutions/Mercury" target="_blank">here</a>.</p>
             </div>
             <div class="footer-bottom">
                 <div class="logo">
@@ -148,7 +149,7 @@
                 <p>©2020 Crestron Electronics, Inc.</p>
                 <p>All brand names, product names and trademarks are the property of their respective owners. Certain trademarks, registered trademarks, and trade names may be used to refer to either the entities claiming the marks and names or their products. Crestron disclaims any proprietary interest in the marks and names of others. Crestron is not responsible for errors in typography or photography.</p>
                 <p><a href="https://www.crestron.com/legal/privacy-policy" target="_blank">Privacy Policy </a>&nbsp;<a href="https://www.crestron.com/legal/website-terms-of-use" target="_blank">Terms of Use</a></p>
-                <p>TERMS AND CONDITIONS: Promotion starts 16/03/2020 and ends 30/06/2020. Purchase four Crestron Mercury CCS-UC-1-AV W/PS and receive one free Crestron Mercury CCS-UC-1-AV W/PS. The purchase order must include the code: “BUY4GET1FREE”, identify the end user, and the Crestron Quote number if applicable. The promotion does not include the cost of delivery, installation, or configuring/programming the system. The listed promotional prices also do not include the cost of any additional parts that may be required. This program cannot be combined with any other programs or discounts.</p>
+                <p>TERMS AND CONDITIONS: Promotion starts 16/03/2020 and ends 30/06/2020. Purchase four Crestron Mercury CCS-UC-1-AV W/PS and receive one free Crestron Mercury CCS-UC-1-AV W/PS. This promotion is open only to Australia and New Zealand. The purchase order must include the code: “BUY4GET1FREE”, identify the end user, and the Crestron Quote number if applicable. The promotion does not include the cost of delivery, installation, or configuring/programming the system. The listed promotional prices also do not include the cost of any additional parts that may be required. This program cannot be combined with any other programs or discounts.</p>
             </div>
         </div>
     </footer>

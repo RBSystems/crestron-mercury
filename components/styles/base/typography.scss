@@ -5,31 +5,31 @@ html {
     -moz-osx-font-smoothing: grayscale;
 }
 body{
-    @include font-Montserrat-Light;
+    @include font-Mark-Light;
     @include font-size(2.1rem);
     line-height: 1.476;
     color: $color-dark;
 }
 h1{
-    @include font-Montserrat-Light;
+    @include font-Mark-Light;
     @include font-size(6.9rem);
     line-height: .91em;
-    margin: 0 0 30px;
+    margin: 0 0 18px;
     color: $color-blue;
 
     span{
-        @include font-Montserrat-Bold;
+        @include font-Mark-Bold;
     }
 }
 h2{
-    @include font-Montserrat-Light;
+    @include font-Mark-Light;
     @include font-size(3.7rem);
     line-height: 1.135em;
-    margin: 0 0 30px;
+    margin: 0 0 18px;
     color: $color-blue;
 
     span{
-        @include font-Montserrat-Bold;
+        @include font-Mark-Bold;
     }
 }
 a{
@@ -37,5 +37,8 @@ a{
 }
 strong,
 b{
-    @include font-Montserrat-Bold;
+    @include font-Mark-Bold;
+}
+sup{
+    font-size: .7em;
 }
