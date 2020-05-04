@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://go.crestroninfo.com/l/767943/2020-04-29/5sx932/767943/46233/fonts.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
     <title>Document</title>
@@ -30,12 +29,12 @@
     <main id="main">
         <section class="banner">
             <div class="container">
-                <div class="banner-text">
+                <div class="banner-text" pardot-region="banner-heading">
                     <h1>When things get<br/><span>unusual...</span><br/>It's business<br/>as <span>usual.</span></h1>
                     <span class="sub-heading">with the Crestron Mercury<sup>&reg;</sup> <br/>Conference System</span>
                 </div>
                 <div class="banner-cta">
-                    <span>Buy 4 Crestron Mercury devices and get a 5th one <strong>free!</strong></span>
+                    <span pardot-region="banner-cta-text">Buy 4 Crestron Mercury devices and get a 5th one <strong>free!</strong></span>
                     <a class="btn btn-anchor" href="#form">Find out more</a>
                 </div>
             </div>
@@ -43,10 +42,10 @@
         <section class="collaborate" id="collaborate">
             <div class="container">
                 <div class="collaborate-holder">
-                    <div class="left">
+                    <div class="left" pardot-region="collaborate-heading">
                         <h1>Collaborate as <br/>normal and with <br/><span>confidence</span></h1>
                     </div>
-                    <div class="right">
+                    <div class="right" pardot-region="collaborate-content">
                         <h2>Be ready</h2>
                         <p>The COVID-19 crisis has delivered the business world some unusual challenges. With many of us now working from home, it’s important we find positive ways to stay productive, stay connected with each other, and keep collaborating with confidence.</p>
                     </div>
@@ -55,7 +54,7 @@
         </section>
         <section class="two-columns" id="business">
             <div class="text-holder">
-                <div class="text-wrap">
+                <div class="text-wrap" pardot-region="business-content">
                     <h2>Get <strong>back to business</strong> <br/>and stay on track</h2>
                     <p>A simple and innovative all-in-one solution, the <strong>Crestron Mercury Tabletop UC Video Conference System with Basic Camera (CCS-UC-1-AV W/PS)</strong> is made for right now. It’s all you need to transform any room into a powerful conferencing and collaboration space.</p>
                     <p>Place additional units where you need them most – in the office and personal meeting spaces for leaders or essential workers, and in the home office for your remote and working from home (WFH) teams.</p>
@@ -74,8 +73,8 @@
                             <img src="https://go.crestroninfo.com/l/767943/2020-04-29/5nz1cx/767943/46063/icon_chat.svg" alt="">
                         </div>
                         <div class="text-holder">
-                            <h2>Present</h2>
-                            <p>Enables exceptional full-duplex wideband audio conferencing, speakerphone, video conferencing, BYOD multimedia presentation, content sharing, and web collaboration.</p>
+                            <h2 pardot-region="icon-heading1">Present</h2>
+                            <p pardot-region="icon-text1">Enables exceptional full-duplex wideband audio conferencing, speakerphone, video conferencing, BYOD multimedia presentation, content sharing, and web collaboration.</p>
                         </div>
                     </div>
                     <div class="col">
@@ -83,8 +82,8 @@
                             <img src="https://go.crestroninfo.com/l/767943/2020-04-29/5nz1cv/767943/46061/icon_call.svg" alt="">
                         </div>
                         <div class="text-holder">
-                            <h2>Call</h2>
-                            <p>Leverage the precision engineered speaker and microphones inside Crestron Mercury to enjoy phone calls that sound like everyone is in the same room.</p>
+                            <h2 pardot-region="icon-heading2">Call</h2>
+                            <p pardot-region="icon-text2">Leverage the precision engineered speaker and microphones inside Crestron Mercury to enjoy phone calls that sound like everyone is in the same room.</p>
                         </div>
                     </div>
                     <div class="col">
@@ -92,8 +91,8 @@
                             <img src="https://go.crestroninfo.com/l/767943/2020-04-29/5nz1cn/767943/46059/icon_calendar.svg" alt="">
                         </div>
                         <div class="text-holder">
-                            <h2>Schedule</h2>
-                            <p>Connect directly with Microsoft Exchange Server<sup>&reg;</sup> or Crestron Fusion Software<sup>&reg;</sup> for easy room scheduling with onscreen graphical display of room calendars to set your meeting.</p>
+                            <h2 pardot-region="icon-heading3">Schedule</h2>
+                            <p pardot-region="icon-text3">Connect directly with Microsoft Exchange Server<sup>&reg;</sup> or Crestron Fusion Software<sup>&reg;</sup> for easy room scheduling with onscreen graphical display of room calendars to set your meeting.</p>
                         </div>
                     </div>
                 </div>
@@ -101,7 +100,7 @@
         </section>
         <section class="two-columns ad" id="freedom">
             <div class="text-holder">
-                <div class="text-wrap">
+                <div class="text-wrap" pardot-region="freedom-content">
                     <h2>Freedom to<br/><strong>connect with ease</strong></h2>
                     <p>Unlike comparable systems, only Crestron Mercury works seamlessly with Zoom&trade;, Microsoft Teams<sup>&reg;</sup>, Skype<sup>&reg;</sup> for Business, or any of your preferred web conferencing applications or SIP VoIP phone systems.</p>
                 </div>

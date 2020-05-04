@@ -372,7 +372,7 @@
         // styles pecific to pardot form
         &.form{
             color: $color-white;
-
+            @include font-Montserrat-Light;
             p{
                 @include font-size(1.8rem);
 
