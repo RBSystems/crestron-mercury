@@ -36,7 +36,7 @@
         z-index: 10;
         color: $color-white;
         margin-bottom: 60px;
-
+        width: 60%;
         h1{
             color: $color-white;
         }
@@ -48,7 +48,7 @@
     }
 
     &-cta{
-        display: block;
+        display: inline-block;
         width: 46%;
         position: relative;
         z-index: 10;
@@ -114,6 +114,13 @@
             }
             @include respond-to(mobile-large){
                 float: right;
+            }
+        }
+
+        &.thankyou{
+            text-align: center;
+            .btn{
+                float: none;
             }
         }
     }
