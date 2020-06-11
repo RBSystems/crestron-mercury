@@ -37,6 +37,13 @@
                     <span pardot-region="banner-cta-text">Buy 4 Crestron Mercury devices and get a 5th one <strong>free!</strong></span>
                     <a class="btn btn-anchor" href="#form">Find out more</a>
                 </div>
+                <div class="powered-by top">
+                    <p>Simple meeting room technology for</p>
+                    <div class="logo-holder">
+                        <span><img width="110" src="https://storage.pardot.com/767943/51328/logo_ms_white.svg" alt=""></span>
+                        <span><img width ="50" src="https://storage.pardot.com/767943/51346/logo_zoom_white.svg" alt=""></span>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="collaborate" id="collaborate">
@@ -102,6 +109,13 @@
             <div class="text-holder">
                 <div class="text-wrap" pardot-region="freedom-content">
                     <h2>Freedom to<br/><strong>connect with ease</strong></h2>
+                    <div class="powered-by">
+                        <p>Simple meeting room technology powered by</p>
+                        <div class="logo-holder">
+                            <span><img width="180" src="https://storage.pardot.com/767943/51326/logo_ms_colored.svg" alt=""></span>
+                            <span><img width ="65" src="https://storage.pardot.com/767943/51344/logo_zoom_colored.svg" alt=""></span>
+                        </div>
+                    </div>
                     <p>Unlike comparable systems, only Crestron Mercury works seamlessly with Zoom&trade;, Microsoft Teams<sup>&reg;</sup>, Skype<sup>&reg;</sup> for Business, or any of your preferred web conferencing applications or SIP VoIP phone systems.</p>
                 </div>
             </div>
